@@ -11,14 +11,23 @@ header .container .row .col span{
     font-size: 35px;
     font-weight: bold;
 }
-.col{
-    height: 100px;
+header .container .row:nth-child(1){
+    height:20%;
     background:lightgrey;
     display:flex;
-    flex-direction: column;
-    align-content: center;
+    align-items: center;
 }
-.botonera{
-    height: 40px;
+header .container .row:nth-child(2){
+    height:30%;
     background:grey;
+    display:flex;
+    align-items: center;
 }
+/*.row .botonera {
+    height: 10%;
+    background:blue;
+    /*margin:2%;*/
+    display:flex;
+
+}*/*/
+
