@@ -1,0 +1,24 @@
+body{
+    margin:0;
+}
+.container{
+    border:1px solid black;
+}
+header .container .row .col{
+    text-align: center;
+}
+header .container .row .col span{
+    font-size: 35px;
+    font-weight: bold;
+}
+.col{
+    height: 100px;
+    background:lightgrey;
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+}
+.botonera{
+    height: 40px;
+    background:grey;
+}
