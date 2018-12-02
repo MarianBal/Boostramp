@@ -1,9 +1,6 @@
 body{
     margin:0;
 }
-.container{
-    border:1px solid black;
-}
 header .container .row .col{
     text-align: center;
 }
@@ -18,16 +15,24 @@ header .container .row:nth-child(1){
     align-items: center;
 }
 header .container .row:nth-child(2){
-    height:30%;
-    background:grey;
+    height:8%;
+    background:dimgray;
     display:flex;
     align-items: center;
+    color:white;
 }
-/*.row .botonera {
-    height: 10%;
-    background:blue;
-    /*margin:2%;*/
-    display:flex;
+.botonera .col-1:nth-child(1){
+    font-weight: bold;
+}
+section .container .row{
+    height:20%;
 
-}*/*/
+}
+section .container .row .uno:nth-child(1){
+    background:red;
+}
+section .container .row:nth-child(2){
+    background:pink;
+}
 
+/*https://www.w3schools.com/bootstrap4/trybs_template1.htm*/
