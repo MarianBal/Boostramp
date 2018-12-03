@@ -41,7 +41,19 @@ section .container .row .col-5 p{
     font-size: 18px; 
 }
 section .container .row .col-7{
-    background:pink;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+section .container .row .col-7 span{
+    font-size: 30px;
+    font-weight: bold;    
+}
+section .container .row .col-7 p{
+    font-size: 18px; 
+}
+section .container .row .col{
+    background:
 }
 
 /*https://www.w3schools.com/bootstrap4/trybs_template1.htm*/
