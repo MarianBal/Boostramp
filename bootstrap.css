@@ -5,11 +5,11 @@ header .container .row .col{
     text-align: center;
 }
 header .container .row .col span{
-    font-size: 35px;
+    font-size: 45px;
     font-weight: bold;
 }
 header .container .row:nth-child(1){
-    height:20%;
+    height:30%;
     background:lightgrey;
     display:flex;
     align-items: center;
@@ -28,10 +28,19 @@ section .container .row{
     height:20%;
 
 }
-section .container .row .uno:nth-child(1){
-    background:red;
+section .container .row .col-5{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
-section .container .row:nth-child(2){
+section .container .row .col-5 span{
+    font-size: 30px;
+    font-weight: bold;    
+}
+section .container .row .col-5 p{
+    font-size: 18px; 
+}
+section .container .row .col-7{
     background:pink;
 }
 
